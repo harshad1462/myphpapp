@@ -9,8 +9,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #6e8efb, #a777e3);
-            color: #ffffff;
+            background: linear-gradient(135deg,rgb(61, 19, 7),rgb(153, 94, 225));
+            color:rgb(6, 253, 72);
             text-align: center;
         }
         header {
