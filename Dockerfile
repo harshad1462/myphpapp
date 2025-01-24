@@ -5,7 +5,7 @@ FROM php:8.2-apache
 WORKDIR /var/www/html
 
 # Copy application files to the container
-COPY ./index.php /var/www/html/
+COPY ./app/index.php /var/www/html/
 
 # Enable Apache mod_rewrite (optional, for more complex apps)
 RUN a2enmod rewrite
