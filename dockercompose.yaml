@@ -2,7 +2,7 @@ version: "3.9"  # Use the latest Compose file format version
 
 services:
   web:
-    image: php:8.2-apache  # Use PHP with Apache preconfigured
+    image: harshad06/myphpapp:latest  # Use PHP with Apache preconfigured
     container_name: php-app
     volumes:
       - ./app:/var/www/html  # Mount the 'app' directory into the container
